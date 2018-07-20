@@ -1,14 +1,13 @@
 #!/usr/bin/env node
 
-const { prompt } = require('inquirer');
+const program = require('commander');
 
-console.log("Hello world")
+program
+    .command('search <search_query>')
+    .alias('s')
+    .description('Search for a question')
+    .action((searchKey)=>{
+        console.log(searchKey)
+    })
 
-// program
-//   .command('addContact') // No need of specifying arguments here
-//   .alias('a')
-//   .description('Add a contact')
-//   .action(() => {
-//     prompt(questions).then(answers =>
-//       console.log("hello");
-//   });
+program.parse(process.argv);
