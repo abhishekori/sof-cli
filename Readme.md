@@ -22,11 +22,10 @@
   
   ## Usage
   ```sh
-  $sof --help
+  $ sof --help
   $ sof s "what is node js event loop?"
   ```
-  
-  ## Demo
+ 
   
   
   
