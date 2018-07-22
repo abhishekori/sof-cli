@@ -10,14 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.18.0",
-    "cheerio": "^1.0.0-rc.2",
     "colors": "^1.3.0",
     "commander": "^2.16.0",
-    "inquirer": "^6.0.0",
-    "node-key-sender": "^1.0.10",
-    "request": "^2.87.0",
-    "request-promise": "^4.2.2",
-    "terminal-kit": "^1.17.13"
+    "request-promise": "^4.2.2"
   }
 }
