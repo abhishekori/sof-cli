@@ -25,6 +25,14 @@
   $ sof --help
   $ sof s "what is node js event loop?"
   ```
+  
+  ## Demos
+  
+  ### search
+  <img src="https://github.com/abhishekori/sof-cli/blob/master/demos/demo1.gif" width="500" />
+  
+  ### open links
+  <img src="https://github.com/abhishekori/sof-cli/blob/master/demos/demo2.gif" width="500" />
  
   
   
